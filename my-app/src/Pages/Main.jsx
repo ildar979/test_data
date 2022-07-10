@@ -1,4 +1,6 @@
 import React from 'react';
+import Pagination from '../Components/Pagination/Pagination';
+import Tasks from '../Components/Tasks/Tasks';
 import styles from './Main.module.css';
 
 export default function Main() {
@@ -11,6 +13,8 @@ export default function Main() {
         <div className={ styles.item }>Статус</div>
       </div>
       <hr />
+      <Tasks/>
+      <Pagination/>
     </div>
   )
 }

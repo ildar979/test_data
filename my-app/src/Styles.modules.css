@@ -1,0 +1,20 @@
+html,
+body,
+div[id='root'] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}

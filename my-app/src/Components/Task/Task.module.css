@@ -1,0 +1,38 @@
+.box {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.largeText {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 5px;
+  text-overflow: ellipsis;
+}
+
+.bgColor__blue {
+  background-color: blue ;
+}
+
+.bgColor__aquamarine {
+  background-color: aquamarine ;
+}
+
+.bgColor__orange {
+  background-color: orange;
+}
+
+.bgColor__black {
+  background-color: black;
+}
+
+.bgColor__green {
+  background-color: green;
+}
